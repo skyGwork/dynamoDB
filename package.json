@@ -4,6 +4,7 @@
   "description": "dynamoDB",
   "main": "index.js",
   "scripts": {},
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skyGwork/dynamoDB.git"
