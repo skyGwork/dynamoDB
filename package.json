@@ -1,5 +1,23 @@
 {
+  "name": "dynamodb",
+  "description": "- Amazon DynamoDB[Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "aws-sdk": "^2.1194.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyGwork/dynamoDB.git"
+  },
+  "author": "webphin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyGwork/dynamoDB/issues"
+  },
+  "homepage": "https://github.com/skyGwork/dynamoDB#readme"
 }
