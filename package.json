@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/server.js"
   },
   "dependencies": {
     "aws-sdk": "^2.1194.0",
@@ -16,9 +16,10 @@
     "hbs": "^4.2.0",
     "http": "^0.0.1-security",
     "moment": "^2.29.4",
+    "nodemon": "^2.0.19",
     "path": "^0.12.7",
     "underscore": "^1.13.4",
-    "uuid": "^8.3.2"
+    "uuidv4": "^6.2.13"
   },
   "repository": {
     "type": "git",
